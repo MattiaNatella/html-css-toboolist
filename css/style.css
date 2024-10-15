@@ -36,23 +36,35 @@ main {
 
 
 span.cross {
-  border: 0.3px solid red;
-  vertical-align: middle;
+  display: inline-block;
   padding: 2px;
   margin-right: 3px;
-  border-radius: 100%;
+  margin-bottom: 3px;
+  height: 10px;
+  border: 0.3px solid red;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100%;
   font-size: 0.4rem;
   color: red;
+  text-align: center;
 }
 
 span.check {
-  border: 0.3px solid green;
-  vertical-align: middle;
+  display: inline-block;
   padding: 2px;
   margin-right: 3px;
-  border-radius: 100%;
-  font-size: 0.6rem;
+  margin-bottom: 3px;
+  height: 10px;
+  border: 0.3px solid green;
+  border-radius: 50%;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 100%;
+  font-size: 0.4rem;
   color: green;
+  text-align: center;
 }
 
 button {
@@ -119,9 +131,7 @@ span.badge.sales {
 
 /* ++++++++++++++++HEADER+++++++++++++++++++++++++++++ */
 
-div.header-line{
-  margin: 0px;
-}
+
 
 img.logo{
   margin-top: 10px;
