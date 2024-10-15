@@ -16,7 +16,8 @@ body {
 }
 
 main {
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
 }
 
 
@@ -34,6 +35,14 @@ main {
 }
 
 
+.cross {
+
+  border: 1 solid red;
+  border-radius: 5px;
+  font-size: 0.6rem;
+  color: red;
+  ;
+}
 
 button {
   padding: 5px;
@@ -67,7 +76,6 @@ button.section {
 
 span.badge.editorial {
   background-color: #47a7ef;
-
 }
 
 span.badge.goals {
@@ -85,12 +93,12 @@ span.badge.mobile {
 
 }
 
-p span.badge.website {
+span.badge.website {
   background-color: #cb6492;
 
 }
 
-p span.badge.sales {
+span.badge.sales {
   background-color: #b0c729;
 
 }
@@ -114,3 +122,15 @@ img.logo{
 }
 /* ++++++++++++++++MAIN+++++++++++++++++++++++++++++++++++ */
 
+.topic {
+  font-weight: 800;
+}
+
+
+li {
+  padding-top: 5px
+}
+
+li.spazio {
+  padding-top: 15px;
+}
