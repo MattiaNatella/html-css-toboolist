@@ -12,7 +12,7 @@ header {
 }
 
 body {
-  background-color: lightgray;
+  background-color: #f6f8fa;
 }
 
 main {
@@ -35,13 +35,24 @@ main {
 }
 
 
-.cross {
-
-  border: 1 solid red;
-  border-radius: 5px;
-  font-size: 0.6rem;
+span.cross {
+  border: 0.3px solid red;
+  vertical-align: middle;
+  padding: 2px;
+  margin-right: 3px;
+  border-radius: 100%;
+  font-size: 0.4rem;
   color: red;
-  ;
+}
+
+span.check {
+  border: 0.3px solid green;
+  vertical-align: middle;
+  padding: 2px;
+  margin-right: 3px;
+  border-radius: 100%;
+  font-size: 0.6rem;
+  color: green;
 }
 
 button {
@@ -71,6 +82,8 @@ button.section {
   border-radius: 5px;
   font-size: 0.4rem;
   color: white;
+  vertical-align: middle;
+  margin-left: 2px;
 
 }
 
@@ -128,7 +141,8 @@ img.logo{
 
 
 li {
-  padding-top: 10px
+  padding-top: 10px;
+  list-style: none;
 }
 
 li.spazio {
