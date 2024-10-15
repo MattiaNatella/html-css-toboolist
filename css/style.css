@@ -7,7 +7,7 @@
 
 header {
   background-color: white;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: tre;
   height: 70px;
   
   
@@ -21,6 +21,10 @@ body {
 ++++++++++++++++UTILITY++++++++++++++++++++++++++
 
 ++++++++++++++++HEADER+++++++++++++++++++++++++++++
+
+div.header-line{
+  margin: 10px;
+}
 
 img.logo{
   margin-top: 10px;
