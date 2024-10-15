@@ -1,3 +1,41 @@
-body {
-  background-color: red;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+header {
+  background-color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  height: 70px;
+  
+  
+}
+
+body {
+  background-color: lightgray;
+}
+
+
+++++++++++++++++UTILITY++++++++++++++++++++++++++
+
+++++++++++++++++HEADER+++++++++++++++++++++++++++++
+
+div.header-line{
+  margin: 10px;
+}
+
+img.logo{
+  margin-top: 10px;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+.Toboolist{
+  font-size: 2rem;
+  vertical-align: middle;
+}
+++++++++++++++++MAIN+++++++++++++++++++++++++++++++++++
+++++++++++++++++FOOTER++++++++++++++++++++++++++++++
+++++++++++++++++GENERAL++++++++++++++++++++++++++++++++
