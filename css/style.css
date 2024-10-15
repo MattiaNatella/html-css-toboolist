@@ -65,36 +65,32 @@ button.section {
 
 }
 
-main p span.badge.editorial {
+span.badge.editorial {
   background-color: #47a7ef;
 
 }
 
-main p span.badge.goals {
+span.badge.goals {
   background-color: #9d75e7;
 
 }
 
-main p span.badge.recruiting {
+span.badge.recruiting {
   background-color: #6abca3;
 
 }
 
-main p span.badge.mobile {
+span.badge.mobile {
   background-color:#eca134;
 
 }
 
-main p span.badge.editorial {
-  background-color: #47a7ef;
-
-}
-main p span.badge.website {
+p span.badge.website {
   background-color: #cb6492;
 
 }
 
-main p span.badge.sales {
+p span.badge.sales {
   background-color: #b0c729;
 
 }
