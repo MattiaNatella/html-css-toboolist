@@ -7,23 +7,70 @@
 
 header {
   background-color: white;
-  font-family: tre;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   height: 70px;
-  
-  
 }
 
 body {
   background-color: lightgray;
 }
 
+main {
+  font-family: Arial, Helvetica, sans-serif
+}
 
-++++++++++++++++UTILITY++++++++++++++++++++++++++
 
-++++++++++++++++HEADER+++++++++++++++++++++++++++++
+/* ++++++++++++++++UTILITY++++++++++++++++++++++++++ */
+
+.container {
+  background-color: white;
+  max-width: 615px;
+  width: 615px;
+  margin: 35px auto;
+  padding-top: 10px;
+  padding-left: 35px;
+  padding-bottom: 25px;
+  border-radius: 5px;
+}
+
+
+
+button {
+  padding: 5px;
+  font-size: 0.5rem;
+  border-radius: 5px;
+  height: 20px;
+  line-height: 50%;
+}
+
+button.task {
+  background-color: #4baaf4;
+  border: 0;
+  color: white;
+}
+
+button.section {
+  background-color: white;
+  border:1px solid lightgray;
+  color: lightgray;
+
+}
+
+
+
+
+table{
+  text-align: left;
+}
+
+
+
+
+
+/* ++++++++++++++++HEADER+++++++++++++++++++++++++++++ */
 
 div.header-line{
-  margin: 10px;
+  margin: 0px;
 }
 
 img.logo{
@@ -36,6 +83,11 @@ img.logo{
   font-size: 2rem;
   vertical-align: middle;
 }
-++++++++++++++++MAIN+++++++++++++++++++++++++++++++++++
-++++++++++++++++FOOTER++++++++++++++++++++++++++++++
-++++++++++++++++GENERAL++++++++++++++++++++++++++++++++
+/* ++++++++++++++++MAIN+++++++++++++++++++++++++++++++++++ */
+
+
+main p {
+  padding: 10px;
+
+}
+
