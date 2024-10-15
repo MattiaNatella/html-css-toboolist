@@ -57,14 +57,47 @@ button.section {
 }
 
 
+.badge {
+  padding: 3px;
+  border-radius: 5px;
+  font-size: 0.4rem;
+  color: white;
 
-
-table{
-  text-align: left;
 }
 
+main p span.badge.editorial {
+  background-color: #47a7ef;
 
+}
 
+main p span.badge.goals {
+  background-color: #9d75e7;
+
+}
+
+main p span.badge.recruiting {
+  background-color: #6abca3;
+
+}
+
+main p span.badge.mobile {
+  background-color:#eca134;
+
+}
+
+main p span.badge.editorial {
+  background-color: #47a7ef;
+
+}
+main p span.badge.website {
+  background-color: #cb6492;
+
+}
+
+main p span.badge.sales {
+  background-color: #b0c729;
+
+}
 
 
 /* ++++++++++++++++HEADER+++++++++++++++++++++++++++++ */
@@ -84,10 +117,4 @@ img.logo{
   vertical-align: middle;
 }
 /* ++++++++++++++++MAIN+++++++++++++++++++++++++++++++++++ */
-
-
-main p {
-  padding: 10px;
-
-}
 
